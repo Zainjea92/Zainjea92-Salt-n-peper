@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #000000;
+}
+
+
+
+#logo{
+    width: 165px;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.6rem;
+}
+
+.navbar{
+    padding: 10px 100px;
+}
+
+.nav-btn{
+    width: 145px;
+    height: 50px;
+    border-radius: 30px;
+    color: #ffffff;
+    border: 1px solid white;
+    cursor: pointer;
+    
+}
+
+.nav-btn>a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+#Franchise-btn{
+    background-color: transparent;
+}
+
+.arrow{
+    border-radius: 50%;
+    padding: 3px 8px;
+    margin-left:8px;
+    font-size: 1.5rem;
+    
+}
+
+.menu-icon{
+    display: none;
+}
+
+@media(max-width:990px){
+    .menu-icon{
+        display: block;
+
+    }
+
+    .nav-items>a,.nav-items>button{
+        display: none;
+    }
+}
+
+/* navbar ended */
+
+
+#slide-img-1{
+    width: 100%;
+}
+
+.container{
+    padding: 70px 15px 160px;
+}
+
+.w-head{
+    font-size: 4rem;
+}
+
+@font-face {
+    font-family: "futurak";
+    src: url("../accets/fonts/futurak.ttf");
+}
+@font-face {
+    font-family: "bulter";
+    src: url("../accets/fonts/Butler/Butler_Medium.otf");
+}
+
+#snp-tittle,.snp-tittle-2{
+    font-size: 5.2rem;
+    font-family: "futurak";
+    font-weight: 400;
+}
+
+.p-1{
+    font-size: 1.6rem;
+    margin: 0 0 40px;
+}
+
+.card-img-3{
+    /* background-color: #ffffff; */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.c-img-1,.c-img-2,.c-img-3{
+    background-color: #ffffff;
+    border-radius: 3px;
+    padding: 22px;
+    /* height: 140px; */
+    width: 250px;
+    
+
+}
+
+.btn-c-img{
+    width: 190px;
+    margin: 20px 0 0 30px;
+    /* height: 40px; */
+    padding: 16px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid rgb(110, 109, 109);
+    border-radius: 30px;
+    font-weight: 800;
+    
+
+}
+
+.container-2{
+    padding: 70px;
+    background-color: #0f0f0f;
+    width: 100%;
+}
+
+.snp-2tittle{
+    text-align: center;
+    font-size: 4.8rem;
+    font-family: "bulter";
+
+}
+
+.snp-tittle-2{
+    
+    display: block;
+}
+
+.cont-2-p{
+    font-size: 1.6rem;
+    padding: 0 0 40px 0;
+}
+
+.islamabad,.faisalabad,
+.bahawalpur{
+    letter-spacing: 1ch;
+    font-size: 1.5rem;
+    
+}
+
+
+
+.i-tittle,
+.f-tittle,
+.b-tittle{
+    font-size: 3.2rem;
+    margin-top: 10px;
+}
+
+.i-address,.i-phone,
+.f-address,.f-phone,
+.b-address,.b-phone{
+    font-size: 1.6rem;
+    margin: 0 0 10px;
+}
+
+.i-address>i,.i-phone>i,
+.f-address>i,.f-phone>i,
+.b-address>i,.b-phone>i,
+.phone3>i,.Jphone3>i{
+    
+    margin-right: 5px;
+}
+
+.D-btn,.D-btn3,.D-btn4{
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    margin-top: 50px;
+    width: 180px;
+}
+
+.s-logo{
+    position: absolute;
+    top: 1420px;
+    right: 50px;
+}
+
+.fai-sec
+{
+    margin-top: 50px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    gap: 30px;
+    
+}
+
+/* .f-img{
+    margin-left: 0;
+    margin-right: 30px;
+} */
+
+.f-content{
+    padding-right: 300px;
+}
+
+
+.cont-2-p{
+    padding-top: 20px;
+}
+
+.baha-sec{
+
+    margin-top: 50px;
+}
+
+.container-3{
+    margin: 40px;
+    padding: 40px;
+    background-image: url(../accets/p-background-img.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* .p-logo{
+    width: 100%;
+} */
+
+.cont3-img{
+    width: 380px;
+}
+
+.phone3{
+    padding-top: 20px;
+}
+
+.D-btn3{
+    margin-left: 100px;
+}
+
+.lahore, .sahiwal{
+    height: 252px;
+}
+
+.w-box{
+    width: 400px;
+    padding: 15px 0 30px;
+}
+
+.w-box-img{
+  
+    padding: 0rem 0rem 15px 170px;
+    cursor: pointer;
+   
+}
+
+.cnt5-img{
+    width: 300px;
+}
+
+.cnt-5-images{
+    padding: 25px 15px 100px;
+    
+}
+
+.footer-copyright{
+    padding: 15px 100px;
+}
+
+input[type = "text"],
+input[type = "email"]{
+    width: 650px;
+    height: 50px;
+}
+
+.inputs-1{
+    margin: 0 80px;
+    padding: 70px 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+   
+}
+
+.submit:hover{
+
+    cursor: pointer;
+    background-color: #f3c743;
+    transition: 0.3s;
+    color: black;
+}
+
+.about-img-2{
+    width: 640px;
+    height: 400px;
+}
+
+.pub-img-box{
+    border: 1px solid gray;
+    width: 700px;
+    height: 550px;
+    text-align: center;
+    /* padding: 0px 70px; */
+}
+
+.pub-con-img{
+    width: 550px;
+
+}
+
+.pub-con-img:hover{
+    cursor: pointer;
+    width: 600px;
+    transition: 0.7s;
+}
